@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOGREEN</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>ECOGREEN</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="reciclaje.html">Reciclaje</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-texto">
+        <h2>Cuidemos El Planeta Juntos</h2>
+
+        <p>
+            Aprende a reciclar correctamente y ayuda a reducir la contaminación.
+        </p>
+
+        <a href="reciclaje.html">
+            <button>Aprender Más</button>
+        </a>
+    </div>
+
+</section>
+
+<section class="info">
+
+    <div class="card-info">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>Medio Ambiente</h3>
+        <p>
+            Promovemos el cuidado del planeta mediante prácticas sostenibles.
+        </p>
+    </div>
+
+    <div class="card-info">
+        <i class="fa-solid fa-recycle"></i>
+        <h3>Reciclaje</h3>
+        <p>
+            Aprende a clasificar residuos de manera correcta.
+        </p>
+    </div>
+
+    <div class="card-info">
+        <i class="fa-solid fa-earth-americas"></i>
+        <h3>Impacto Positivo</h3>
+        <p>
+            Cada acción ayuda a mejorar el futuro del planeta.
+        </p>
+    </div>
+
+</section>
+
+<section class="calculadora">
+
+    <h2>Calculadora Ecológica</h2>
+
+    <p>
+        Ingresa la cantidad de kilos reciclados este mes.
+    </p>
+
+    <input type="number" id="kilos" placeholder="Ejemplo: 10">
+
+    <button onclick="calcularImpacto()">
+        Calcular Impacto
+    </button>
+
+    <h3 id="resultado"></h3>
+
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
